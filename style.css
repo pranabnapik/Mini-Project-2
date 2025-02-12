@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 50px;
+    background-image: url(./image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   #searchBox {
     padding: 10px;
