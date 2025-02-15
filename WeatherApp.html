@@ -35,12 +35,12 @@
                 <p><strong>Wind Speed:</strong> ${data.wind.speed} m/s</p>
               </div>`;
           } else {
-            document.getElementById("weatherResult").innerHTML =
-              "City not found. Try again.";
+            document.getElementById("weatherResult").innerHTML = `
+              <div><strong>City not found. Try again.</strong></div>`;
           }
         } catch (error) {
-          document.getElementById("weatherResult").innerHTML =
-            "Error fetching data.";
+          document.getElementById("weatherResult").innerHTML = `
+            <div><strong>Error fetching data.</strong></div>`;
         }
       }
     </script>
